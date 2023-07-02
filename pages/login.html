@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles/pages/login.css" rel="stylesheet" />
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <section>
+        <div class="Text container text-center mb-5">
+            <h1 class="Title">Bem vindo de volta!</h1>
+            <span class="Subtitle">Nós sentimos sua falta.</span>
+        </div>
+
+        <div class="container px-5 mb-5">
+            <div class="mb-4 row">
+                <span class="Subtitle mb-2">Email</span>
+                <input id="Email" type="text" class="Input form-control" placeholder="email@gmail.com">
+            </div>
+            <div class="row">
+                <span class="Subtitle mb-2">Senha</span>
+                <input id="Password" type="password" class="Input form-control" placeholder="••••••••">
+            </div>
+            <a id="Forgot_password" class="row justify-content-end" href="#">Esqueceu sua senha?</a>
+        </div>
+
+        <div class="container text-center px-5">
+            <button id="Button" type="button" class="btn btn-primary mb-3">Entrar</button>
+            <div class="row">
+                <hr id="First_divider" class="col mt-2">
+                <span class="Other col">Ou continue com</span>
+                <hr id="Second_divider" class="col mt-2">
+            </div>
+            <button id="Google">
+                <img src="../resources/icons/google.svg" alt="Google">
+            </button>
+        </div>
+    </section>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

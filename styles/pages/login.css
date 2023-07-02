@@ -1,0 +1,20 @@
+@import '../index.css';
+
+.Title{
+    font-size: 32px;
+}
+
+#Forgot_password{
+    color: #A4A4A4;
+    font-size: 11px;
+    text-decoration: none;
+    transition: all ease-in-out .25s;
+}
+
+#Forgot_password:hover{
+    font-size: 11.5px;
+}
+
+#Forgot_password:active{
+    font-size: 10.5px;
+}
